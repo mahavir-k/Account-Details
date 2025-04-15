@@ -1,9 +1,11 @@
-package com.Account_Deteils;
+package com.Account_Details;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class AccountDetailsApplication {
 
 	public static void main(String[] args) {
